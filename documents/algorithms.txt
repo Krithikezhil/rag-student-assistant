@@ -1,0 +1,3 @@
+Binary search is an algorithm for finding a target value in a sorted array. It works by repeatedly dividing the search interval in half: compare the target to the middle element, and eliminate the half where the target cannot lie. This gives binary search O(log n) time complexity, much faster than a linear scan's O(n).
+
+Dynamic programming is a technique for solving problems by breaking them into overlapping subproblems and storing the results of subproblems to avoid redundant computation. It's commonly used for optimization problems like the knapsack problem or finding the shortest path, and typically involves either memoization (top-down) or tabulation (bottom-up).
