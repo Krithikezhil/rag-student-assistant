@@ -18,7 +18,7 @@ app = FastAPI()
 # Allow the React frontend to call this backend (same pattern as Project 1)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # we'll tighten this to the real frontend URL once deployed
+    allow_origins=["https://rag-student-assistant.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
